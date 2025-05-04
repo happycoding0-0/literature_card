@@ -1,23 +1,25 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# node modules
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# 환경 변수 파일
+.env
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# 운영체제 관련
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+Thumbs.db
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# 빌드 결과물
+dist/
+build/
+
+# 개발 툴 설정
+.vscode/
+.idea/
+
+# 로그파일
+*.log
+
+# 백업 파일
+*.zip
+*.rar
+*.bak
