@@ -1,37 +1,37 @@
-timeline-viewer/
-├── node_modules/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── EventCard.jsx
-│   │   └── TimelineContainer.jsx
-│   ├── data/
-│   │   └── events.json
-│   ├── index.css
-│   ├── index.js
-│   └── App.jsx
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-├── package-lock.json
-├── .gitignore
-└── README.md
-public/: CRA 기본 HTML 및 정적파일
+# 📚 문학 콘텐츠 카드 슬라이드
 
-src/components/: 컴포넌트 분리 (EventCard, TimelineContainer)
+중간고사 정리 내용을 바탕으로 만든 **문학 작품 플래시카드 웹앱**입니다.  
+React와 Tailwind CSS, Swiper.js를 활용해 슬라이드형 학습 도구로 구현했습니다.
 
-src/data/: 이벤트 JSON 데이터
+<br>
 
-src/index.css: Tailwind 진입점 (@import "tailwindcss";)
+## ✨ 주요 기능
 
-src/index.js: CSS 임포트 및 React 루트 마운트
+- 문학 작품 내용을 카드 형태로 시각화
+- **Swiper.js**로 카드 넘김 슬라이드 구현
+- 카드 클릭 시 **모달 팝업**으로 상세 보기
+- 모바일 & 데스크탑 반응형 대응
+- JSON 기반 콘텐츠 데이터 관리
 
-src/App.jsx: 전체 레이아웃 + TimelineContainer 호출
+<br>
 
-tailwind.config.js: Tailwind 설정
+## 🛠 사용 기술
 
-postcss.config.js: PostCSS 플러그인 설정
+| 구분 | 기술 |
+|------|------|
+| 프레임워크 | React |
+| 스타일링 | Tailwind CSS |
+| 라이브러리 | Swiper.js |
+| 데이터 관리 | JSON |
+| 빌드 도구 | Vite / Create React App 등 (선택 사항) |
 
-README.md: 프로젝트 개요 및 실행 방법 정리
+<br>
+
+## 💻 실행 방법
+
+```bash
+# 패키지 설치
+npm install
+
+# 로컬 실행
+npm start
