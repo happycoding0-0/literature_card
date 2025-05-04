@@ -36,7 +36,7 @@
 
 
 
-<details> <summary> 📁 프로젝트 구조 및 설명</summary>
+<summary> 📁 프로젝트 구조 및 설명</summary>
 
 ```markdown
 문학플래쉬카드/
@@ -66,7 +66,7 @@
 ├── tailwind.config.js          # Tailwind CSS 설정
 └── README.md                   # 프로젝트 설명 문서
 ```
-</details>
+
 
 
 
