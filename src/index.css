@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css 또는 global.css에 추가하세요 */
+.swiper {
+    overflow: visible !important;
+  }
+  .swiper-wrapper {
+    overflow: visible !important;
+  }
+  .swiper-slide {
+    overflow: visible !important;
+  }
+  
